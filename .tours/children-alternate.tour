@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "$children alternate",
+  "steps": [
+    {
+      "file": "src/mixins/Childrenable.js",
+      "description": "Создать миксин `Childrenable`, суть которого сводится к тому, чтобы мы создаём _множество_ дочерних элементов для определённого компонента, а с помощью _api_ `provide-inject` управляем им, добавляя и удаляя элементы из него.",
+      "line": 3
+    },
+    {
+      "file": "src/main.js",
+      "description": "Зарегистировать миксин `Childrenable` глобально, чтобы каждый экземпляр компонента использовал его _api_.",
+      "line": 8
+    }
+  ]
+}
